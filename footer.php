@@ -5,7 +5,7 @@
     <div class="cont-wrap"><div class="grid_12">
     	<p>
 (UTC+8)&nbsp;版权所有 &copy; 2010 - <?php echo date("Y");?> <a href="//shansing.com/about/">闪闪的星</a></p>
-<p>自豪地采用 <a href="http://typecho.org" target="_blank">Typecho</a>，模板由 <a href="http://breeswish.org" target="_blank">Breezewish</a> 设计后 <a href="http://shansing.com" target="_blank">Shansing</a> 移植而来，驱动于<a href="http://billing.zzxx.in/aff.php?aff=164" target="_blank" rel="nofollow">通达主机</a></p>
+<p>自豪地采用 <a href="http://typecho.org" target="_blank">Typecho</a>，模板由 <a href="http://breeswish.org" target="_blank">Breezewish</a> 设计后 <a href="http://shansing.com" target="_blank">Shansing</a> 移植而来，驱动于<a href="http://billing.zzxx.in/aff.php?aff=164" target="_blank" rel="nofollow">通达主机</a> 和 <a href="https://www.upyun.com/" target="_blank"><img style="vertical-align:middle" src="//shansing.b0.upaiyun.com/breezing/img/upyun.png" alt="UPYUN" /></a></p>
     </div><div class="clear"></div></div>
 </div></div>
 <script type="text/javascript">
@@ -18,8 +18,8 @@ if (anchor.getAttribute("rel") == ("external nofollow")){
 anchor.target = "_blank";}}}
 //window.onload = externallinks;
 </script>
-<script type="text/javascript" src="<?php $this->options->themeUrl('js/jquery.min.js?v=140802001'); ?>"></script>
-<script type="text/javascript" src="<?php $this->options->themeUrl('js/main.js?v=140807002'); ?>"></script>
+<script type="text/javascript" src="//shansing.b0.upaiyun.com/breezing/js/jquery.min.js"></script>
+<script type="text/javascript" src="//shansing.b0.upaiyun.com/breezing/js/main.js"></script>
 <!-- nuffnang -->
 <script type="text/javascript">
 if(document.location.protocol != "https:"){

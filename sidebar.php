@@ -131,7 +131,6 @@ if ($page) {
 <div class="sidebar-module sidebar-catalogs">
     <h4>特别链接</h4>
     <div class="sidebar-body"><ul class="sidebar-list">
-       <li class="sidebar-item"><a href="http://eximius.cc" target="_blank" title="我们团队">团队: Eximius</a></li>
        <li class="sidebar-item"><a href="//x.shansing.com" target="_blank" title="一个在线解密游戏">闪星未名角</a></li>
        <li class="sidebar-item"><a href="http://api.shansing.com" target="_blank" title="一些API">闪星开发者接口</a></li>
         <li class="sidebar-item"><a href="//shansing.net" target="_blank" title="The English Site">ENGLISH</a></li>

@@ -14,7 +14,7 @@
     <script type="text/javascript">
     var CONFIG = {"Prefix":"","URI":"<?php echo strtr($_SERVER['REQUEST_URI'], array($this->options->siteUrl => '','/' => '\/')); ?>"};
     </script>
-    <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css?v=140809003'); ?>" type="text/css" charset="UTF-8" />
+    <link rel="stylesheet" href="<?php //$this->options->themeUrl('style.css?v=140809003'); ?>//shansing.b0.upaiyun.com/breezing/style.css" type="text/css" charset="UTF-8" />
     <link rel="shortcut icon" href="<?php $this->options->siteUrl('favicon.ico'); ?>">
     <?php $this->header();  ?>
     <meta name="author" content="闪闪的星" />
