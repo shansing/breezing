@@ -1,4 +1,4 @@
-<?php if (empty($_GET['raw']) || $_GET['raw'] != 'true'): ?>
+<?php if (empty($_POST['raw']) || $_POST['raw'] != 'true'): ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <?php endif; ?>
@@ -16,10 +16,10 @@
     </script>
     <link rel="stylesheet" href="<?php //$this->options->themeUrl('style.css?v=140809003'); ?>//shansing.b0.upaiyun.com/breezing/style.css" type="text/css" charset="UTF-8" />
     <link rel="shortcut icon" href="<?php $this->options->siteUrl('favicon.ico'); ?>">
-    <?php $this->header();  ?>
+    <?php $this->header('');  ?>
     <meta name="author" content="闪闪的星" />
 </head>
-<?php if (empty($_GET['raw']) || $_GET['raw'] != 'true'): ?>
+<?php if (empty($_POST['raw']) || $_POST['raw'] != 'true'): ?>
 <body class="body-<?php if($this->is('post') || $this->is('category')){echo $this->category;}else{echo 'home';} ?>">
 <div id="container">
 <div class="page-header">

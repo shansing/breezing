@@ -749,7 +749,7 @@ h={};g()}};typeof define==="function"&&define.amd&&define("google-code-prettify"
 
             url: url,
             dataType: 'text',
-            type: 'GET',
+            type: 'POST',
             data: {
                 raw: 'true'
             },

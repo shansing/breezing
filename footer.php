@@ -1,4 +1,4 @@
-<?php if (empty($_GET['raw']) || $_GET['raw'] != 'true'): ?>
+<?php if (empty($_POST['raw']) || $_POST['raw'] != 'true'): ?>
 </div>
 <div class="page-footer">
     <a class="footer-rss-wrap" href="<?php $this->options->feedUrl(); ?>" target="_blank" bw-static><span class="footer-rss icon-feed"></span></a>
@@ -19,7 +19,7 @@ anchor.target = "_blank";}}}
 //window.onload = externallinks;
 </script>
 <script type="text/javascript" src="//shansing.b0.upaiyun.com/breezing/js/jquery.min.js"></script>
-<script type="text/javascript" src="//shansing.b0.upaiyun.com/breezing/js/main.js"></script>
+<script type="text/javascript" src="//shansing.b0.upaiyun.com/breezing/js/main.js?te1"></script>
 <!-- nuffnang -->
 <script type="text/javascript">
 if(document.location.protocol != "https:"){
@@ -38,7 +38,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(nn
 <?php endif;  ?><div id="footer-js">
 <script type="text/javascript" src="//tajs.qq.com/stats?sId=30178080" charset="UTF-8"></script>
 <?php $this->footer(); ?>
-</div><?php if (empty($_GET['raw']) || $_GET['raw'] != 'true'):  ?>
+</div><?php if (empty($_POST['raw']) || $_POST['raw'] != 'true'):  ?>
 </body>
 </html>
 <?php endif; ?>

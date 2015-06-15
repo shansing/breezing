@@ -4,7 +4,7 @@
  * 
  * @package Breezing for Typecho
  * @author alter by Shansing
- * @version 0.1
+ * @version 0.11
  * @link http://shansing.com
  */
  
